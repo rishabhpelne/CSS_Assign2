@@ -10,6 +10,7 @@ h1{
     border-color: blue green gray orange;
     margin-left: 150px;
     padding: 100px 50px 100px 50px;
+    display: inline-block;
 
 }
 
@@ -18,11 +19,11 @@ ul{
 }
 table{
     width: 70% ;
-    border-collapse: collapse;
+     border-collapse: collapse; 
     margin-left: 100px;
 }
 th,td{
-    visibility: hidden;
+     visibility: hidden; 
 }
 h3{
     text-align: center;

@@ -1,0 +1,51 @@
+*{
+    border-radius: 20px;
+}
+
+main{
+   display: flex;
+   flex-direction: column;
+   
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo{
+    background-color: aqua;
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.heading{
+    background-color: crimson;
+    flex-basis: 700px;
+    flex-grow: 6;
+    flex-shrink: 1;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.left{
+    background-color: chartreuse;
+    flex-grow: 1;
+    flex-basis: 300px;
+    flex-shrink: 1;
+}
+.middle{
+    background-color: darkorange;
+    flex-grow: 1;
+    flex-basis: 300px;
+    flex-shrink: 1;
+}
+.right{
+    background-color: deeppink;
+    flex-grow: 1;
+    flex-basis: 300px;
+    flex-shrink: 1;
+}
+
+footer{
+    background-color: forestgreen;
+}

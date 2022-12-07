@@ -1,0 +1,78 @@
+body{
+    display: flex;
+}
+
+nav{
+    background-color: rgba(180, 174, 174, 0.932);
+    flex-grow: 2;
+    background-image: url(image/wiki.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-basis: 400px;
+    
+}
+.mainpage{
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+header{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.menu{
+    background-color: white;
+    flex-grow: 1;
+    height: 7vh;
+}
+.menu ul li{
+   float: right;
+   list-style: none;
+   padding: 10px;
+   padding-left: 30px;
+   
+}
+.heading{
+    background-color: white;
+    flex-grow: 1;
+    border-bottom: 1px solid;
+}
+section{
+    display: flex;
+    flex-grow: 4;
+}
+aside{
+    background-color: white;
+    flex-grow: 1;
+    flex-basis: 400px;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 250px;
+   
+}
+.name{
+    background-color: rgba(201, 194, 194, 0.932);
+   
+}
+.img{
+    background-image: url(image/sania.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex-grow: 1;
+    height: 80vh;
+}
+.name h3{
+    text-align: center;
+}
+h2,h4,p{
+    padding-left: 20px;
+    padding-right: 40px;
+}
