@@ -3,16 +3,31 @@
     flex-wrap: wrap;
 }
 aside{
-    background-color: rgb(180, 178, 178);
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(216, 208, 208);
     flex-grow: 1;
-    flex-basis: 150px;
+    flex-wrap: wrap;
+    flex-basis: 200px;
+}
+.img{
+    flex-basis: 200px;
+    background-image: url(image/wiki.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.linking ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 aside li{
     text-align: center;
 }
 main{
     flex-grow: 6;
-    flex-basis: 1000px;
+    flex-basis: 500px;
     border: 1px solid;
     margin-left: 10px;
 }
@@ -22,19 +37,21 @@ header{
     flex-wrap: wrap;
 }
 .nav{
-    display: flex;
-    justify-content: end;
+   
+    
     padding-right: 20px;
     border-bottom: 1px solid;
+    background-color: rgb(216, 208, 208);
 }
 ul{
     display: flex;
-    
+    justify-content: end;
 }
 menu{
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid;
+    flex-wrap: wrap;
 }
 .left{
     display: flex;
@@ -64,13 +81,16 @@ a{
 }
 .para-image{
     display: flex;
-    
+    flex-wrap: wrap;
 }
 .para{
-    
+    flex-basis: 600px;
+    flex-grow: 5;
 }
 .details{
     /* background-color: rgb(180, 178, 178); */
+    flex-basis: 200px;
+    flex-grow: 1;
 }
 h1,h2,p{
     padding-left: 10px;
@@ -79,4 +99,82 @@ h1,h2,p{
 img{
     margin-top: 10px;
     width: 200px;
+}
+
+@media (max-width:300px){
+    aside{
+        background-color: aqua;
+    }
+    
+    .nav ul {
+        display: flex;
+        flex-direction: column;
+        /* align-content: center; */
+        /* text-align: center; */
+        line-height: 35px;  
+        flex-wrap: wrap;
+    }
+    .nav a{
+        color: black;
+    }
+    .right ul{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+    .heading{
+        justify-content: space-evenly;
+        flex-grow: 1;
+    }
+    .para{
+        flex-wrap: wrap;
+        flex-grow: 1;
+    }
+    h2{
+        background-color: red;
+        color: white;
+    }
+}
+
+@media (min-width:301px) and (max-width:500px) {
+    aside{
+        background-color: pink;
+    }
+    .nav ul{
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        line-height: 35px;
+        padding: 10px;
+    }
+    .heading{
+        background-color: darkmagenta;
+        color: white;
+    }
+    .para{
+        flex-grow: 1;
+    }
+}
+
+@media (min-width:501px) and (max-width:700px){
+    aside{
+        background-color: coral;
+    }
+    .heading{
+        background-color: blue;
+        color: white;
+    }
+}
+
+@media (min-width:701px) and (max-width:1000px){
+    aside{
+        background-color: greenyellow;
+    }
+    .para{
+        color: red;
+    }
+    .heading{
+        background-color: crimson;
+        color: white;
+    }
 }
