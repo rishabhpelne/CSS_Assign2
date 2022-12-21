@@ -1,0 +1,61 @@
+main{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+}
+header{
+    height: 20vh;
+    width: 100vw;
+    background-color: blue;
+}
+section{
+    height: 70vh;
+    width: 100vw;
+    background-color: chocolate;
+    display: flex;
+}
+article{
+    height: 70vh;
+    width: 70vw;
+    background-color: darkmagenta;
+
+}
+aside{
+    height: 70vh;
+    width: 30vw;
+    background-color: gray;
+}
+footer{
+    height: 10vh;
+    width: 100vw;
+    background-color: yellow;
+}
+h1{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    font-size: 3rem;
+}
+p{
+    color: white;
+    padding: 20px;
+    font-size: 1rem;
+}
+b,i,u{
+    font-size: 2em;
+}
+h2{
+    
+    padding: 20px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+   
+    font-size: 2em;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
