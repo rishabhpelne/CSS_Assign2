@@ -1,0 +1,37 @@
+
+.one{
+    height: 100px;
+    width: 215px;
+    background-color: rgba(0, 0, 0, 0.747);
+    position: absolute;
+    /* top: 100px;
+    left: 350px;
+    transform: skew(-58deg, 184deg); */
+    top: 100px;
+    left: 350px;
+    transform: skew(-56deg, 199deg);
+}
+.two{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.747);
+    position: absolute;
+    /* top: 210px;
+    left: 280px;
+    transform: skew(-170deg, 724deg); */
+    top: 220px;
+    left: 280px;
+    transform: skew(-178deg, 739deg);
+}
+.three{
+    height: 200px;
+    width: 170px;
+    background-color: rgba(0, 0, 0, 0.747);
+    position: absolute;
+    /* top: 165px;
+    left: 500px;
+    transform: skew(-708deg, -32deg); */
+    top: 200px;
+    left: 500px;
+    transform: skew(-718deg, -34deg);
+}
